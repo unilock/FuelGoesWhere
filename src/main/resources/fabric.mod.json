@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "fuelgoeswhere",
+	"version": "${version}",
+	"name": "Fuel Goes Where?",
+	"description": "Makes it such that when quick-moving (shift-clicking) stacks into a Furnace, the fuel slot will always be filled before the input slot.",
+	"authors": [
+		"unilock"
+	],
+	"contact": {
+		"sources": "https://github.com/unilock/FuelGoesWhere"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"fuelgoeswhere.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.20"
+	}
+}
